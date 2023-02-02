@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* gg-sans */
+@font-face {
+    font-family: "ggsans";
+    src: url("fonts/gg-sans/ggsans-Normal.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ggsans";
+    src: url("fonts/gg-sans/ggsans-Medium.ttf");
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ggsans";
+    src: url("fonts/gg-sans/ggsans-Semibold.ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ggsans";
+    src: url("fonts/gg-sans/ggsans-Bold.ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* Ginto */
+@font-face {
+    font-family: "Ginto";
+    src: url("fonts/Ginto/Ginto-300.woff");
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto";
+    src: url("fonts/Ginto/Ginto-400.woff");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto";
+    src: url("fonts/Ginto/Ginto-500.woff");
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto";
+    src: url("fonts/Ginto/Ginto-600.woff");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto";
+    src: url("fonts/Ginto/Ginto-700.woff");
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* Ginto-Nord */
+@font-face {
+    font-family: "Ginto-Nord";
+    src: url("fonts/Ginto-Nord/Ginto-Nord-500.woff");
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto-Nord";
+    src: url("fonts/Ginto-Nord/Ginto-Nord-600.woff");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ginto-Nord";
+    src: url("fonts/Ginto-Nord/Ginto-Nord-700.woff");
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* Whitney */
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/Whitney/Whitney-300.woff');
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/Whitney/Whitney-400.woff');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/Whitney/Whitney-500.woff');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/Whitney/Whitney-600.woff');
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/Whitney/Whitney-700.woff');
+    font-weight: 700;
+    font-display: swap;
+}
