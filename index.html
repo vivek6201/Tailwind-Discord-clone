@@ -53,7 +53,7 @@
             </div>
         </nav>
 
-        <!-- <ul class="right-8 top-20  lg:hidden w-[400px] bg-white rounded-2xl text-lightBlue flex-col gap-x-1 absolute font-semibold z-50"
+        <ul class="hidden right-8 top-20 lg:hidden w-[200px]  sm:w-[400px] bg-white rounded-2xl text-lightBlue flex-col gap-x-1 absolute font-semibold z-50"
             id="list">
             <li
                 class="mt-3 py-2 text-center px-5 hover:bg-lightBlue500 mx-3 rounded-md hover:text-white cursor-pointer">
@@ -78,7 +78,7 @@
                 class="py-2 px-5 hover:bg-lightBlue500 mx-3 rounded-md hover:text-white cursor-pointer text-center mb-3">
                 <a href="">Careers</a>
             </li>
-        </ul> -->
+        </ul>
 
         <!-- Hero Section -->
         <section class="relative z-30">
@@ -263,6 +263,11 @@
 
     <script>
         feather.replace();
+        const btn = document.querySelector("#menu");
+        const list = document.querySelector("#list");
+        btn.addEventListener("click",() =>{
+            list.classList.toggle("hidden");
+        })
     </script>
 </body>
 
